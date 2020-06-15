@@ -27,25 +27,26 @@ The program looks as below.
 
 2. Do one of the below depending on your OS
    - Windows : Double click the far file.
-   - Mac, Linux : Type ```java -jar webtoon-crawler.jar``` from the console.
+   - Mac, Linux : Type `java -jar webtoon-crawler.jar` from the console.
 
 ## How to compile on your own
 Run the below commands from your terminal/console
 
 1. Download my source code.
-
-   ```git clone git@github.com:TurtleShip/webtoon-crawler.git```
+   ```
+   git clone git@github.com:TurtleShip/webtoon-crawler.git
+   ```
 
 2. Use maven to create jar file.
    ```
-cd webtoon-crawler
-mvn package
+   cd webtoon-crawler
+   mvn package
    ```
 
 3. Find and run the executable webtoon-crawler.jar you just created.
    ```
-cd target
-java -jar webtoon-crawler.jar
+   cd target
+   java -jar webtoon-crawler.jar
    ```
 
 ## License
